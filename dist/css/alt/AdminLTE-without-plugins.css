@@ -302,6 +302,9 @@ a:focus {
 .main-header .logo .logo-lg {
   display: block;
 }
+.main-header .logo .logo-lg img {
+  width: 100%;
+}
 .main-header .logo .logo-mini {
   display: none;
 }
@@ -487,7 +490,6 @@ a:focus {
 .user-panel > .info {
   padding: 5px 5px 5px 15px;
   line-height: 1;
-  position: absolute;
   left: 55px;
 }
 .user-panel > .info > p {
@@ -1480,6 +1482,10 @@ a:focus {
 .small-box > .inner {
   padding: 10px;
 }
+.small-box > .inner p {
+  font-style: italic;
+  margin-bottom: 0px;
+}
 .small-box > .small-box-footer {
   position: relative;
   text-align: center;
@@ -1496,9 +1502,9 @@ a:focus {
   background: rgba(0, 0, 0, 0.15);
 }
 .small-box h3 {
-  font-size: 38px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   white-space: nowrap;
   padding: 0;
 }
@@ -2031,9 +2037,10 @@ a:focus {
  */
 .info-box {
   display: block;
-  min-height: 90px;
+  min-height: 60px;
   background: #fff;
   width: 100%;
+  padding: 15px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   margin-bottom: 15px;
@@ -2095,6 +2102,38 @@ a:focus {
 }
 .progress-description {
   margin: 0;
+}
+.left-info p {
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+.right-info ul {
+  list-style: none;
+  float: right;
+  margin-bottom: 0px;
+}
+.right-info ul li {
+  display: inline-block;
+  margin-left: 15px;
+  float: left;
+  position: relative;
+}
+.right-info ul li::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 12px;
+  right: -8px;
+  background-color: #8abad6;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.right-info ul li:last-child::after {
+  display: none;
+}
+.right-info ul li a {
+  line-height: 30px;
 }
 /*
  * Component: Timeline
