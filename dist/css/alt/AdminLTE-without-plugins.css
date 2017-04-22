@@ -1698,7 +1698,7 @@ a:focus {
   text-align: center;
   color: #333;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 0.3em;
 }
 .box > .overlay,
@@ -1785,6 +1785,10 @@ a:focus {
 }
 .box-header > .box-tools .dropdown-menu > li > a {
   color: #444!important;
+}
+.box-header .form-group {
+  margin-bottom: 0px;
+  min-width: 150px;
 }
 .btn-box-tool {
   padding: 5px;
@@ -1965,7 +1969,7 @@ a:focus {
 }
 /* Chat widget (DEPRECATED - this will be removed in the next major release. Use Direct Chat instead)*/
 .chat {
-  padding: 5px 20px 5px 10px;
+  padding: 5px 10px 5px 10px;
 }
 .chat .item {
   margin-bottom: 10px;
