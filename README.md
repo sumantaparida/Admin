@@ -8,11 +8,11 @@ Introduction
 
 **AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
 
-**Download & Preview on [Almsaeed Studio](https://almsaeedstudio.com)**
+**Download & Preview on [Sumanta ADMIN](https://almsaeedstudio.com)**
 
 Looking for Premium Templates?
 ------------------------------
-**Almsaeed studio just opened a new premium templates website. Hand picked to ensure the best quality and the most affordable prices. Visit https://themequarry.com for more information.**
+**Almsaeed studio just opened a new premium templates website. Hand picked to ensure the best quality and the most affordable prices. Mail me sumanta90parida@gmail.con for more information.**
 
 !["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
 
@@ -22,18 +22,15 @@ Installation
 ------------
 There are multiple ways to install AdminLTE.
 
-####Download:
-
-Download from Github or [visit Almsaeed Studio](https://almsaeedstudio.com) and download the latest release.
 
 ####Using The Command Line:
 
 **Github**
 
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Fork the repository ([here is the guide](https://github.com/sumantaparida/admin)).
 - Clone to your machine
 ```
-git clone https://github.com/YOUR_USERNAME/AdminLTE.git
+git clone https://github.com/sumantaparida/admin
 ```
 
 **Bower**
@@ -53,11 +50,6 @@ npm install --save admin-lte
 ```
 composer require "almasaeed2010/adminlte=~2.0"
 ```
-
-Documentation
--------------
-Visit the [online documentation](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html) for the most
-updated guide. Information will be added on a weekly basis.
 
 Browser Support
 ---------------
